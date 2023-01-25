@@ -1,4 +1,7 @@
-nav #nav-container {
+nav #nav-container,
+.section-row-container,
+#footer-container
+ {
     width: 1390px;
 }
 
@@ -72,8 +75,6 @@ main {
 }
 
 .section-row-container {
-    height: 700px;
-    width: 1390px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -183,4 +184,30 @@ main {
 
 .old-price {
     text-decoration: line-through;
+}
+
+footer {
+    height: 110px;
+    background-color: #1A1A1A;
+}
+
+footer #footer-container {
+    height: 110%;
+    background-color: red;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer #footer-container #footer-section-1 {
+    height: 50%;
+    width: 390px;
+    background-color: yellow;
+}
+
+footer #footer-container #footer-section-2 {
+    height: 50%;
+    width: 145px;
+    background-color: yellow;
 }
