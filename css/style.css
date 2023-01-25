@@ -99,7 +99,7 @@ main .section-row-container .clothing .visible-image img {
     height: 100%;
 }
 
-main .section-row-container .clothing .hover-image{
+.clothing .hover-image{
     width: 100%;
     height: 640px;
     position: absolute;
@@ -108,7 +108,7 @@ main .section-row-container .clothing .hover-image{
     display: none;
 }
 
-main .section-row-container .clothing .hover-image img {
+ .clothing .hover-image img {
     height: 100%;
 }
 
@@ -116,7 +116,7 @@ main .section-row-container .clothing .hover-image img {
     display: inline-block;
 }
 
-main .section-row-container .clothing .heart {
+.clothing .heart {
     font-size: 3em;
     padding: 3% 5%;
     background-color: white;
@@ -125,7 +125,7 @@ main .section-row-container .clothing .heart {
     top: 5px;
 }
 
-main .section-row-container .clothing .heart a {
+.clothing .heart a {
     text-decoration: none;
     color: black;
 
