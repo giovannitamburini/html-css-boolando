@@ -72,7 +72,6 @@ main {
 .section-row-container {
     height: 700px;
     width: 1390px;
-    background-color: blue;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -81,7 +80,7 @@ main {
 
 .clothing {
     height: 100%;
-    width: 32.5%;
+    width: 31.9%;
     background-color: violet;
     position: relative;
 }
@@ -89,17 +88,23 @@ main {
 .visible-image {
     width: 100%;
     height: 640px;
-    background-color: red;
+}
+
+.visible-image img {
+    height: 100%;
 }
 
 .hover-image{
     width: 100%;
     height: 640px;
-    background-color: green;
     position: absolute;
     top: 0;
     left: 0;
     display: none;
+}
+
+.hover-image img {
+    height: 100%;
 }
 
 .clothing:hover .hover-image {
@@ -117,6 +122,8 @@ main {
 
 .heart a {
     text-decoration: none;
+    color: black;
+
 }
 
 .heart:hover a {
@@ -125,8 +132,7 @@ main {
 
 .image-text {
     height: 30px;
-    width: 160px;
-    background-color:aqua;
+    width: 165px;
     position: absolute;
     top: 80%;
     left: 0;
@@ -136,10 +142,20 @@ main {
 
 .image-text .discount {
     width: 30%;
-    background-color: yellow;
+    background-color: #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2em;
 }
 
 .image-text .sustainable {
     width: 60%;
-    background-color: orange;
+    background-color: #008000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2em;
 }
