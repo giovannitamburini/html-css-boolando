@@ -45,6 +45,8 @@ nav #nav-container #nav-category ul li {
 nav #nav-container #nav-category ul li a {
     text-decoration: none;
     color: white;
+    font-size: 1.3em;
+    font-weight: 600;
 }
 
 nav #nav-container #nav-logo {
@@ -147,6 +149,7 @@ main {
     align-items: center;
     color: white;
     font-size: 1.2em;
+    font-weight: 500;
 }
 
 .image-text .sustainable {
@@ -157,4 +160,27 @@ main {
     align-items: center;
     color: white;
     font-size: 1.2em;
+    font-weight: 600;
+}
+
+.brand{
+    font-size: 1.2em;
+}
+
+.type-of-dress {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.new-price, .old-price {
+    font-size: 1.2em;
+    font-weight:600;
+}
+
+.new-price {
+    color:red;
+}
+
+.old-price {
+    text-decoration: line-through;
 }
